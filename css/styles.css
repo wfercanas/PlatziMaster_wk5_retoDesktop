@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: 1fr 20fr;
+    height: 100vh;
+}
+
+/* ...................................................nav */
+nav {
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+}
+
+/* ...................................................display */
+.display-container {
+    background-color: #f7f7ee;
+    border-bottom-left-radius: 3vh;
+    border-top-left-radius: 3vh;
+    display: grid;
+    grid-template-rows: 1fr 8fr;
+}
+
+/* ...................................................display-content */
+.display-content {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+}
+
+/* ...................................................content-data */
+.content-data {
+    display: grid;
+    grid-template-rows: 2fr 5fr 4fr;
+    padding-left: 3.5vw;
+}
+
+/* ...................................................content-data-kpis */
+.content-data-kpis {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
