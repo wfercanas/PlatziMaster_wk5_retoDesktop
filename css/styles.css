@@ -73,6 +73,63 @@ nav i:hover {
     grid-template-rows: 1fr 8fr;
 }
 
+.display-top-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 2vw;
+    color: #726a95;
+}
+
+.display-top-bar div, .display-top-bar i {
+    margin: 0 3vw;
+}
+
+.display-top-bar i {
+    font-size: 1.3rem;
+}
+
+.top-bar-search {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vh 0 1vh 0.5vw;
+    border-radius: 15px;
+}
+
+.top-bar-search input {
+    border: none;
+}
+
+.top-bar-search input:focus {
+    outline: none;
+}
+
+.top-bar-search i {
+    margin: 0 0.5vw;
+}
+
+.top-bar-renew {
+    background-color:#f6e6e6;
+    padding: 0 1vw;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border-radius: 15px;
+}
+
+.icon-shield {
+    background-color: #371bb3cc;
+    color: whitesmoke;
+    padding: 1vh;
+    border-radius: 100%;
+}
+
+.top-bar-renew:hover, .icon-envelop:hover, .icon-shield:hover {
+    cursor: pointer;
+}
+
+
 /* ...................................................display-content */
 .display-content {
     display: grid;
