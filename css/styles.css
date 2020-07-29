@@ -7,6 +7,18 @@ body {
     height: 100vh;
 }
 
+h1 {
+    font-size: 60px;
+    margin: 0;
+    font-weight: normal;
+}
+
+h2, h3, h4, h5, h6 {
+    color: gray;
+    font-weight: lighter;
+    margin: 0;
+}
+
 /* ...................................................nav */
 nav {
     display: grid;
