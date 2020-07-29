@@ -19,6 +19,10 @@ h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+figure {
+    margin: 0;
+}
+
 /* ...................................................nav */
 nav {
     display: grid;
@@ -152,11 +156,167 @@ nav i:hover {
 .content-data {
     display: grid;
     grid-template-rows: 2fr 5fr 4fr;
-    padding-left: 3.5vw;
+    padding: 0 3.5vw;
+}
+
+/* ...................................................content-data-hero */
+.data-hero-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    min-height: 80%;
+    border-radius: 20px;
+    margin-top: 1.5vh;
+}
+
+.hero-main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.hero-main-container-num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-main-container-num h4 {
+    font-size: bold;
+}
+
+.hero-main-indicator {
+    margin: 0.5vh 0.5vw;
+    background-color: #f8f1f1;
+    border-radius: 21px;
+    box-shadow: 0px 10px 11px 0px #afafafc4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.hero-main-indicator-num {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-main-indicator-num span, .hero-main-container-num span {
+    font-size: 2.5rem;
+}
+
+.hero-main-indicator-num i,  .hero-main-container-num i {
+    color: #726a95;
+    font-weight: 900;
+}
+
+.hero-main-indicator-num h4 {
+    color: black;
+    font-weight: bold;
+}
+
+.hero-main-indicator-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+
+.hero-main-indicator-logo i {
+    padding: 5vh;
+    border: 3px solid #726a95;
+    border-radius: 100%;
 }
 
 /* ...................................................content-data-kpis */
 .content-data-kpis {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 2vw;
+}
+
+.earnings-per-product {
+    display: grid;
+    grid-template-rows: 4fr 5fr 5fr;
+    min-height: 80%;
+    margin-top: 1.5vh;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.earnings-product-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f1f1;
+    margin: 1vh 1vw;
+    padding: 0 1vw;
+    border-radius: 15px;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin: 1vh 1vw;
+}
+
+.product-logo {
+    display: flex;
+    place-self: center;
+    font-size: 2rem;
+}
+
+.product-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.product-description p {
+    margin: 0;
+}
+
+.product-name {
+    font-weight: bold;
+}
+
+.client-name {
+    font-size: 0.8rem;
+    color: #726a95;
+}
+
+.product-earning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.item-impressions-board {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 80%;
+    margin-top: 1.5vh;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.item-impressions-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-data {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.new-users {
+    margin: 0;
+    color: #726a95;
 }
