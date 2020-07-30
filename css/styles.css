@@ -312,6 +312,8 @@ nav i:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fbd46d44;
+    border-radius: 20px;
 }
 
 .item-impressions-img img {
