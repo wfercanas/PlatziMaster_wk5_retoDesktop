@@ -159,7 +159,7 @@ nav i:hover {
     padding: 0 3.5vw;
 }
 
-/* ...................................................content-data-hero */
+/* ......................................................................content-data-hero */
 .data-hero-main {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -172,6 +172,12 @@ nav i:hover {
 .hero-main-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.hero-main-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-main-container-num {
@@ -216,20 +222,9 @@ nav i:hover {
     font-weight: bold;
 }
 
-.hero-main-indicator-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 4rem;
-}
 
-.hero-main-indicator-logo i {
-    padding: 5vh;
-    border: 3px solid #726a95;
-    border-radius: 100%;
-}
 
-/* ...................................................content-data-kpis */
+/* ...........................................................................content-data-kpis */
 .content-data-kpis {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -302,6 +297,7 @@ nav i:hover {
     margin-top: 1.5vh;
     background-color: white;
     border-radius: 20px;
+    box-shadow: 0px 10px 11px 0px #afafafc4;
 }
 
 .item-impressions-data {
@@ -309,6 +305,15 @@ nav i:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.item-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.item-logo img{
+    width: 60%;
 }
 
 .item-data {
@@ -319,4 +324,38 @@ nav i:hover {
 .new-users {
     margin: 0;
     color: #726a95;
+}
+
+/* .............................................................content-charts */
+
+.content-charts {
+    margin: 0 3.5vw 2.5vh 0;
+    background-color: #dad6ee;
+    border-radius: 25px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 3fr 2fr;
+}
+
+.content-charts i {
+    position: absolute;
+    padding: 1.7vh;
+    background-color: white;
+    font-size: 0.8rem;
+    border-radius: 100%;
+    box-shadow: 0px 10px 11px 0px #afafafc4;
+    top: 1vh;
+    right: 1vh;
+}
+
+.content-charts figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+.content-charts-chart img{
+    width: 95%;
+    border-radius: 20px;
 }
