@@ -40,12 +40,29 @@ nav i:hover {
     justify-content: center;
 }
 
+.nav-top p {
+    display: none;
+}
+
 .nav-middle {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.nav-middle div {
+    display: flex;
+    align-items: center;
+    margin: 1.5vh 0;
+    padding: 0;
+}
+
+.nav-middle p {
+    display: none;
+    color: #726a95;
+    font-weight: bold;
 }
 
 .nav-top i {
@@ -58,25 +75,31 @@ nav i:hover {
 }
 
 .nav-middle i {
-    margin: 2vh 2vh;
+    margin: 2vh 1vh;
 }
 
-.nav-middle .icon-square {
+#square {
     font-size: 2rem;
     border: 3px solid #e79cc2;
     margin: 1vh 1vh;
-    padding: 1vh 1vh;
+    padding: 0vh 1.3vh;
     background: #f6e6e6;
     border-radius: 10px;
 }
 
-.nav-bottom i {
+
+
+.new-item i {
     padding: 1.5vh;
     border: 3px solid #fbd46d;
     border-radius: 50%;
     background: #f4ebc1;
     color: #726a95;
     font-size: 1rem;
+}
+
+.nav-bottom p {
+    display: none;
 }
 
 
