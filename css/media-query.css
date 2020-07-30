@@ -3,7 +3,7 @@
     body {
         margin: 0;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 10px;
+        font-size: 12px;
         grid-template-columns: 1fr 4fr;
     }
     
@@ -16,7 +16,7 @@
         display: none;
     }
 
-    /* ------------------------------------------turning-on */
+    /* ------------------------------------------nav-section */
 
     nav {
         grid-template-rows: 1fr 4fr 4fr;
@@ -67,7 +67,233 @@
         padding-left: 1vw;
     }
 
-    
+    /* -------------------------------------------content-section */
+
+    .display-content {
+        display: block;
+    }
+    .content-data {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 3fr 4fr 4fr 4fr 4fr;
+        height: 95%;
+        column-gap: 2vw;
+    }
+
+    .hero-main-laptop {
+        background-color: #dfbfdd77;
+        border-radius: 15px;
+        margin-top: 2vh;
+    }
+
+    .content-data-hero-laptop {
+        display: block;
+        grid-column-start: 1;
+        grid-row: 2 / span 3;
+        position: relative;
+    }
+
+    .content-data-hero-laptop i {
+        position: absolute;
+        padding: 2.2vh;
+        background-color: white;
+        font-size: 0.8rem;
+        border-radius: 20%;
+        box-shadow: 0px 10px 11px 0px #afafafc4;
+        top: 0;
+        right: 0;
+    }
+
+    .content-data-hero-laptop i:hover {
+        cursor: pointer;
+    }
+
+    .hero-pro-portfolio {
+        display: flex;
+        width: fit-content;
+        background-color: white;
+        border-radius: 15px;
+        font-weight: bold;
+    }
+
+    .hero-pro-portfolio div {
+        padding: 1vh 2vw;
+        border-radius: 15px;
+    }
+
+    .hero-pro {
+        background-color: #958bc5;
+        color: white;
+    }
+
+    .hero-portfolio {
+        color: grey;
+    }
+
+    .hero-main-laptop figure img {
+        width: 70%;
+        margin-top: 2vh;
+    }
+
+    .hero-laptop-renew {
+        display: flex;
+        background-color: #726a95;
+        margin: 3vh 0;
+        padding: 1vh 1vw;
+        align-items: center;
+        border-radius: 15px;
+        justify-content: space-between;
+    }
+
+    .hero-laptop-renew img {
+        color: white;
+        width: 10%;
+    }
+
+    .renew-price-promo {
+        color: white;
+    }
+
+    .renew-price-tag {
+        color: #c3bae9;
+    }
+
+    .renew-price p {
+        margin: 0;
+        padding-left: 2vw;
+    }
+
+    .renew-button {
+        display: flex;
+        justify-content: center;
+        margin: 0.5vh 1vw;
+        background-color: #dfbfdd;
+        padding: 0.5vh 1vw;
+        border-radius: 10px;
+        text-align: center;
+        color:white;
+        font-weight: bold;
+    }
+
+    .renew-button:hover {
+        cursor: pointer;
+    }
+
+    .content-data-earnings-laptop {
+        display: block;
+        grid-column-start: 2;
+        grid-row: 1 / span 2;
+        align-self: center;
+    }
+
+    .data-earnings-laptop {
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        margin: 2vh 0;
+        padding: 3vh 0;
+        border-radius: 20px;
+        box-shadow: 0px 10px 11px 0px #afafafc4;
+    }
+
+    .data-earnings-laptop img {
+        width: 30%;
+    }
+
+    .earnings-value span {
+        font-size: 2rem;
+        margin: 0 0 2vh 0;
+    }
+
+    .data-earnings-laptop div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .data-earnings-laptop p {
+        margin: 0.5vh;
+    }
+
+    .earnings-graphics, .earnings-interfaces {
+        color: grey;
+    }
+
+    .your-best-laptop {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 3vh 0;
+        column-gap: 2vw;
+    }
+
+    .your-best-laptop p {
+        margin: 1vh 0;
+    }
+
+    .best-month {
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 0px 10px 11px 0px #afafafc4;
+        margin-top: 2vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .best-month .icon-dots-three-horizontal {
+        font-size: 1rem;
+        padding: 1vh 0;
+    }
+
+    .best-month .icon-dots-three-horizontal:hover {
+        cursor: pointer;
+    }
+
+    .icon-pacman {
+        font-size: 1.7rem;
+        color: #371bb3cc;
+    }
+
+    .month-value {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .month {
+        color: gray;
+    }
+   
+
+    .best-tool {
+        background-color: #726a95;
+        border-radius: 15px;
+        box-shadow: 0px 10px 11px 0px #afafafc4;
+        margin-top: 2vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .best-tool .icon-hammer {
+        font-size: 1.7rem;
+        color: white;
+    }
+
+    .tool-value {
+        font-size: 1rem;
+        font-weight: bold;
+        color: white;
+    }
+
+    .tool-type {
+        color: #afafafff;
+    }
+
+    .content-data-kpis   {
+        display: block;
+        grid-column-start: 2;
+        grid-row: 4 / span 2;
+        
+    }
 
     
 }
