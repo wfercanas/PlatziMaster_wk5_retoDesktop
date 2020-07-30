@@ -307,6 +307,17 @@ nav i:hover {
     justify-content: center;
 }
 
+.item-impressions-img figure {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-impressions-img img {
+    width: 40%;
+}
+
 .item-logo {
     display: flex;
     justify-content: center;
